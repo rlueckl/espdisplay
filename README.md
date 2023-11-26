@@ -1,2 +1,2 @@
 # espdisplay
-Trying out different displays with an ESP8266
+ESP8266 server component
