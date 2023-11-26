@@ -1,0 +1,11 @@
+[Unit]
+Description=SystemD unit file for ESP8266 Display Counter.
+
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/opt/espdisplay/server.py
+
+[Install]
+WantedBy=multi-user.target
